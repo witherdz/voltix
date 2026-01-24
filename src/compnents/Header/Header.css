@@ -1,0 +1,17 @@
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+    align-content: space-around;
+
+}
+.item{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    align-content: space-around;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+
