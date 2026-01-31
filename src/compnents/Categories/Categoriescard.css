@@ -1,3 +1,51 @@
-.categoriescard{
+
+.categoriescard {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.categoriescard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.categoriescard:active {
+    transform: scale(0.98);
+}
+
+.categorycard_img {
+    position: relative;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.categorycard_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.category_title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items:end;
+    justify-content:center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 50px;
+}
+
+.category_title h3 {
+    color: white;
+    font-size: 18px;
+    text-align: end;
+    margin: 0;
+    font-weight: bold;
 }
